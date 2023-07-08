@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .container{
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    height:100vh;
+  }
+  
+  .card{
+    width:350px;
+    height:500px;
+    border-radius:12px;
+    background-color:#4C4C6D;
+    overflow: hidden;
+  }
+  
+  .card .title h1{
+    font-family: Gilroy;
+    color: white;
+    font-size:2rem;
+    text-align: center;
+    padding: 2%;
+  }
+  
+  .card .title p{
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+  
+  }
+  
+   .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+  }
+  
+    img{
+    width:36%;
+    padding-left:110px;
+   
+    
+     
+  }
+  
+   .name{
+    color: white;
+    text-align:center;
+    font-family: Gilroy;
+    font-weight:bold;
+    margin-top: 4%;
+    margin-left:1%;
+  }
+  
+   .details{
+    background-color: #D14D72;
+    font-size: large;
+  height: 40%;
+  margin-top: 10%;
+  border-top-left-radius:75px ;
+  padding: 10%;
+  color: white;
+  font-family: Open Sans;
+  border-top: 4px solid  white;
+  
+  }
+  
+   li{
+    margin-top: 2%;
+  }
+  
